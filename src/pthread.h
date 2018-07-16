@@ -186,6 +186,7 @@ struct sched_param {
  * Mutex variables
  */
 #define PTHREAD_MUTEX_INITIALIZER       {_PTHREAD_MUTEX_INIT, {0}}
+#define PTHREAD_RECURSIVE_MUTEX_INITIALIZER PTHREAD_MUTEX_INITIALIZER
 
 /*
  * RWLock variables
